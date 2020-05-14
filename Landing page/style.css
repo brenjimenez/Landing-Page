@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+.Logo{
+    text-align: center;
+    display: inline-table;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Logo p{
+  font-size: 50px;
+  font-family: "Times", serif;
+  font-style: italic;
+  display: table-cell;
+  vertical-align: middle;
+  color: #E3989C;
+}
+
+.Banner{
+  text-align: center;
+  display: inline-table;
+  height: 150px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.Banner p{
+  font-family: "Times", serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 100px;
+  display: table-cell;
+  vertical-align: middle;
+  color: #E3989C;
+}
+
+.Intro{
+  height: 100px;
+  width: 100%;
+  display: inline-table;
+}
+
+.Intro p{
+    font-family: "Helvetica", sans-serif;
+    font-size: 17px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #E3989C;
+}
+.Clip{
+  background-color: grey;
+  height: 250px;
+  width: 25%;
+  float: left;
+  margin: 20px;
+}
+
+.Contenedor{
+  width: 80%;
+  margin-left: 16%;
+  margin-right: 4%;
+}
+
+.Footer{
+    background: rgba(119, 136, 153, 0.3);
+    width: 100%;
+    height: 75px;
+    float: left;
+    margin-top: 40px;
+    display: inline-table;
+}
+
+.Footer p{
+  font-family: "Helvetica", sans-serif;
+  font-size: 13.5px;
+  display: table-cell;
+  vertical-align: middle;
+  color: #E3989C;
+  background: rgba(119, 136, 153, 0);
+  padding-left: 25px;
+}
+
+.pfa{
+  font-size: 80px;
+}
+
+.band{
+  font-weight: bold;
+  background: rgba(119, 136, 153, 0);
+}
+
+.quote{
+  font-style: italic;
+}
